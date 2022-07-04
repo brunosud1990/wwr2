@@ -41,7 +41,6 @@ html{
 .aside{
     grid-area: aside;
     background-color: #F0B9C7;
-    z-index: 10;
 }
 
 .article{
@@ -123,19 +122,15 @@ img.imagen-banner{
 
 /*Aside*/
     /*Wrap*/
-@media (min-width: 900px) {
-        .wrap{
-            display:flex ;
-            grid-template:
-            "imagen1 Texto-wrap" 100px
-            "imagen2 Texto-wrap2" 100px/
-            auto auto;
-        }  
-    }
+.wrap{
+        display:grid;
+        grid-template-columns:auto auto;
+        grid-template-rows: auto auto;
+    }  
 
 
 div.wrap{
-    margin: 1em 1em 1em 1em ;
+    margin: 1em 1em 1em 1em;
     width: auto;
     height: auto;
     background-color: #9966a1;
@@ -146,16 +141,16 @@ img.imagen1{
     width: 200px;
     height: 200px;
     justify-self: left;
-    
+    border-style: ridge;
+    border-color: #F0B9C7;
+    border-width: 0.5em;
 }
 
 div.Texto-wrap{
-    width: auto;
+    width: 60%;
     height: auto;
-    margin: 1em 1em 1em 1em;
-    justify-self: right;
+    justify-self: left;
     bottom: 20px;
-    margin-bottom: 10%;
     font-size:smaller;
 }
 
@@ -163,14 +158,16 @@ img.imagen2{
     margin: 1em 1em 1em 1em;
     width: 200px;
     height: 200px;
-    justify-self: left; 
+    justify-self: left;
+    border-style: ridge;
+    border-color: #F0B9C7;
+    border-width: 0.5em;
 }
 
 div.Texto-wrap2{
-    width: auto;
+    width: 60%;
     height: auto;
-    margin: 1em 1em 1em 1em;
-    justify-self: right;
+    justify-self: left;
     bottom: 20px;
     font-size:smaller;
 }
