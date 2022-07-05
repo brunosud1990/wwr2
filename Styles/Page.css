@@ -122,6 +122,7 @@ img.imagen-banner{
 
 /*Aside*/
     /*Wrap*/
+
 .wrap{
         display:grid;
         grid-template-columns:auto auto;
@@ -131,7 +132,6 @@ img.imagen-banner{
 
 div.wrap{
     margin: 1em 1em 1em 1em;
-    width: auto;
     height: auto;
     background-color: #9966a1;
 }
@@ -202,3 +202,29 @@ footer a:hover {
     justify-self: end;
 }
 
+/* article*/
+div.article-galery img{
+    width: 100px;
+    height: 100px;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    border-style: dotted;
+    border-color: #F0B9C7;
+}
+
+div.article-galery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+div.article-wrap{
+    margin: 1em 1em 1em 1em ;
+    height: auto;
+    width: auto;
+}
+
+div.Button{
+    font-size: 2em;
+    font-family: 'The Nautigal', cursive;
+    align-content: center;
+    text-align: center;
+}
