@@ -118,6 +118,7 @@ img.imagen-banner{
     justify-content:right;
     bottom: 40%;
     font-size:smaller;
+    font-family: 'Bebas Neue', cursive;
 }
 
 /*Aside*/
@@ -152,6 +153,7 @@ div.Texto-wrap{
     justify-self: left;
     bottom: 20px;
     font-size:smaller;
+    font-family: 'Bebas Neue', cursive;
 }
 
 img.imagen2{
@@ -170,6 +172,7 @@ div.Texto-wrap2{
     justify-self: left;
     bottom: 20px;
     font-size:smaller;
+    font-family: 'Bebas Neue', cursive;
 }
 
 /*footer*/
@@ -227,4 +230,8 @@ div.Button{
     font-family: 'The Nautigal', cursive;
     align-content: center;
     text-align: center;
+    border-radius: 10%;
+    border-style: dotted;
+    border-spacing: 1em;
+  
 }
