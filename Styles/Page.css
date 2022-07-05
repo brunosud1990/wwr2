@@ -150,10 +150,12 @@ img.imagen1{
 div.Texto-wrap{
     width: 60%;
     height: auto;
-    justify-self: left;
+    justify-self: center;
     bottom: 20px;
     font-size:smaller;
     font-family: 'Bebas Neue', cursive;
+    align-content: center;
+
 }
 
 img.imagen2{
@@ -169,7 +171,7 @@ img.imagen2{
 div.Texto-wrap2{
     width: 60%;
     height: auto;
-    justify-self: left;
+    justify-self: center;
     bottom: 20px;
     font-size:smaller;
     font-family: 'Bebas Neue', cursive;
@@ -207,8 +209,8 @@ footer a:hover {
 
 /* article*/
 div.article-galery img{
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     margin: 0.5em 0.5em 0.5em 0.5em;
     border-style: dotted;
     border-color: #F0B9C7;
