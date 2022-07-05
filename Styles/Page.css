@@ -139,8 +139,8 @@ div.wrap{
 
 img.imagen1{
     margin: 1em 1em 1em 1em;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height:150px;   
     justify-self: left;
     border-style: ridge;
     border-color: #F0B9C7;
@@ -148,11 +148,12 @@ img.imagen1{
 }
 
 div.Texto-wrap{
-    width: 60%;
+    width: 80%;
     height: auto;
     justify-self: center;
+    text-align: center;
     bottom: 20px;
-    font-size:smaller;
+    font-size:small;
     font-family: 'Bebas Neue', cursive;
     align-content: center;
 
@@ -160,8 +161,8 @@ div.Texto-wrap{
 
 img.imagen2{
     margin: 1em 1em 1em 1em;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height:150px;
     justify-self: left;
     border-style: ridge;
     border-color: #F0B9C7;
@@ -169,11 +170,12 @@ img.imagen2{
 }
 
 div.Texto-wrap2{
-    width: 60%;
+    width: 80%;
     height: auto;
     justify-self: center;
+    text-align: center;
     bottom: 20px;
-    font-size:smaller;
+    font-size:small;
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -209,8 +211,8 @@ footer a:hover {
 
 /* article*/
 div.article-galery img{
-    width: 125px;
-    height: 125px;
+    width: 160px;
+    height: 160px;
     margin: 0.5em 0.5em 0.5em 0.5em;
     border-style: dotted;
     border-color: #F0B9C7;
