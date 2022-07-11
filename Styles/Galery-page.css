@@ -17,7 +17,7 @@ body {
   margin: 100px auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2,300px);
+  grid-template-rows: repeat(2,450px);
 }
 
 .gallery-container .gallery-card{
