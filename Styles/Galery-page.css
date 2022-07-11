@@ -13,7 +13,7 @@ body {
 }
 
 .gallery-container{
-  width:200px;
+  width:80%;
   margin: 100px auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
